@@ -1,3 +1,9 @@
+.jumbthron {
+  height: 100vh;
+}
+.jumbthron img {
+  height: 100%;
+}
 .overlay {
   display: flex;
   flex-direction: column;
@@ -10,4 +16,31 @@
   width: 100vw;
   height: 100vh !important;
   padding: 0;
+}
+.second {
+  height: 100vh;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.light-bg {
+  background-color: var(--text-light);
+  color: var(--text-main);
+}
+
+.features .col.card {
+  height: 50vh;
+  /* margin-top: 0.3rem; */
+  margin-bottom: 0.5rem;
+}
+
+@media screen and (min-width: 48em) {
+  .features {
+    columns: 3;
+    width: 100%;
+  }
 }
