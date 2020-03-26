@@ -43,10 +43,21 @@
   /* margin-top: 0.5rem; */
   margin-bottom: 0.2rem;
 }
+/* .carousel-inner img {
+  height: 5vh !important;
+  display: none !important;
+} */
 
 @media screen and (min-width: 48em) {
   .features {
     columns: 3;
     width: 100%;
+  }
+  .multi-column.options {
+    columns: 3;
+    width: 100%;
+  }
+  .carousel-inner img {
+    height: 55vh !important;
   }
 }
