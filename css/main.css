@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-big: 3rem;
+  --font-mid: 2rem;
+  --font-small: 1.5rem;
+  --text-main: #802bb1;
+  --text-dark: #2d283e;
+  --text-link: #4c495d;
+  --text-light: #d1d7e0;
+  --background-color: #2d283e;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  overflow: hidden;
+  color: var(--text-light);
+  background-color: var(--background-color);
+}
+
+.container-fluid {
+  overflow-y: scroll;
+}
+
+/* Lists */
+li {
+  list-style: none;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: var(--text-light);
+}

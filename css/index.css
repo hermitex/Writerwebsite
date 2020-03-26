@@ -1,0 +1,13 @@
+.overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.jumbthron-container {
+  width: 100vw;
+  height: 100vh !important;
+  padding: 0;
+}
