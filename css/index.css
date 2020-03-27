@@ -28,6 +28,10 @@
   justify-content: center;
   text-align: center;
 }
+.card.light-bg.second {
+  border-radius: 0 !important;
+  width: 100vw !important;
+}
 
 .light-bg {
   background-color: var(--text-light);
