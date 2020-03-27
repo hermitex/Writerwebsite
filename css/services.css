@@ -7,6 +7,7 @@ body {
 }
 .container-fluid {
   padding: 0 !important;
+  height: 100vh;
 }
 .heading {
   margin-top: 5rem;
@@ -21,7 +22,6 @@ body {
 .flex {
   border-radius: 0 !important;
   width: 100vw;
-  height: 100vh;
 }
 .sub-title {
   text-transform: uppercase;
@@ -31,6 +31,8 @@ body {
 
 .flex .column {
   columns: 2;
+  height: 100vh;
+  margin-bottom: 1rem !important;
 }
 .container-fluid p {
   color: var(--background-color);
@@ -74,5 +76,8 @@ form {
   .flex .multi-column {
     columns: 4;
     overflow: hidden;
+  }
+  .flex .column {
+    height: 45vh;
   }
 }
