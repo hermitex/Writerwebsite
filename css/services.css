@@ -15,7 +15,7 @@ body {
 
 .heading-title {
   text-transform: uppercase;
-  font-size: 3.2rem;
+  font-size: 2rem;
   white-space: nowrap;
 }
 
@@ -76,6 +76,9 @@ form {
 /* End Contact */
 
 @media screen and (min-width: 48em) {
+  .heading-title {
+    font-size: 3.5rem;
+  }
   .flex .multi-column {
     columns: 4;
     overflow: hidden;
