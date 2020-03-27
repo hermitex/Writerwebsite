@@ -5,4 +5,7 @@ allInput.forEach(element => {
   element.addEventListener("mouseover", e => {
     formDiv.classList.add("z-index-2");
   });
+  element.addEventListener("blur", () => {
+    formDiv.classList.remove("z-index-2");
+  });
 });
