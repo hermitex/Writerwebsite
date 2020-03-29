@@ -92,6 +92,17 @@ p i:hover {
   display: none !important;
 } */
 
+.benefits h3 i {
+  color: var(--text-main);
+}
+.benefits h3 {
+  text-align: left;
+  color: var(--text-link) !important;
+}
+.benefits h2 {
+  color: var(--text-main) !important;
+}
+
 @media screen and (min-width: 48em) {
   .features {
     columns: 3;
@@ -104,12 +115,6 @@ p i:hover {
   .carousel-inner img {
     height: 55vh !important;
   }
-  .margin-top-0 {
-    /* margin-top: 3.7rem !important; */
-  }
-  /* .coll {
-    color: red !important;
-  } */
 }
 
 @media screen and (min-width: 375px) {
@@ -140,8 +145,4 @@ p i:hover {
   .margin-top-0 {
     margin-top: 0 !important;
   }
-}
-
-.col .card {
-  /* margin-top: 3rem; */
 }
