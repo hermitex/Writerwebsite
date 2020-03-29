@@ -77,11 +77,15 @@ p i:hover {
   color: var(--text-main);
   font-size: 2.5rem;
 }
+
 .features p {
   color: var(--text-dark);
 }
 .d-none {
   display: block !important;
+}
+.margin-top-0 {
+  margin-top: 0 !important;
 }
 /* .carousel-inner img {
   height: 5vh !important;
@@ -100,6 +104,15 @@ p i:hover {
   .carousel-inner img {
     height: 55vh !important;
   }
+  .margin-top-0 {
+    margin-top: 3.7rem !important;
+  }
+  /* .coll {
+    color: red !important;
+  } */
+}
+
+@media screen and (min-width: 375px) {
 }
 
 @media screen and (max-width: 375px) {
@@ -124,4 +137,11 @@ p i:hover {
   .features .cardtext div {
     height: 12.5vh;
   }
+  .margin-top-0 {
+    margin-top: 0 !important;
+  }
+}
+
+.col .card {
+  /* margin-top: 3rem; */
 }
