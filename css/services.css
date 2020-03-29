@@ -1,5 +1,5 @@
 body {
-  overflow: hidden !important;
+  overflow-x: hidden !important;
   height: 100vh;
   width: 100vw;
   overflow-y: scroll !important;
@@ -21,7 +21,7 @@ body {
 
 .flex {
   border-radius: 0 !important;
-  width: 100vw;
+
   height: 100%vh !important;
 }
 .flex h2 {
@@ -89,5 +89,6 @@ form {
   }
   .flex .column {
     height: 45vh;
+    overflow: hidden;
   }
 }
