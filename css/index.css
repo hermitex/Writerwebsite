@@ -63,6 +63,9 @@
   justify-content: center;
   padding: 1rem;
 }
+.features .cardtext {
+  height: 20vh !important;
+}
 p i {
   color: var(--text-link);
   font-size: var(--font-mid);
@@ -96,5 +99,29 @@ p i:hover {
   }
   .carousel-inner img {
     height: 55vh !important;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .change-size {
+    display: none;
+  }
+  p i {
+    color: var(--text-link);
+    font-size: 1rem;
+  }
+  p i:hover {
+    color: var(--text-main);
+    font-size: 1.2rem;
+  }
+  .h5,
+  h5 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+  .features .cardtext div {
+    height: 12.5vh;
   }
 }
