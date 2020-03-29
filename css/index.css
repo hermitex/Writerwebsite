@@ -102,6 +102,9 @@ p i:hover {
 .benefits h2 {
   color: var(--text-main) !important;
 }
+.landing-first p {
+  font-size: var(--font-small);
+}
 
 @media screen and (min-width: 48em) {
   .features {
@@ -115,9 +118,25 @@ p i:hover {
   .carousel-inner img {
     height: 55vh !important;
   }
+
+  .landing-first h1,
+  .landing-second h1,
+  .landing-third h1 {
+    font-size: var(--font-large) !important;
+  }
+  .landing-first p,
+  .landing-second p {
+    font-size: var(--font-mid) !important;
+  }
 }
 
 @media screen and (min-width: 375px) {
+  /* .landing-first h1 {
+    font-size: var(--font-large);
+  }
+  .landing-first p {
+    font-size: var(--font-mid);
+  } */
 }
 
 @media screen and (max-width: 375px) {
@@ -144,5 +163,11 @@ p i:hover {
   }
   .margin-top-0 {
     margin-top: 0 !important;
+  }
+  .landing-first h1 {
+    font-size: 1.5rem;
+  }
+  .landing-first p {
+    font-size: 1rem;
   }
 }

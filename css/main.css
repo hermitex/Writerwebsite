@@ -5,7 +5,7 @@
 }
 
 :root {
-  --font-big: 3rem;
+  --font-large: 3rem;
   --font-mid: 2rem;
   --font-small: 1.5rem;
   --text-main: #802bb1;
@@ -44,5 +44,14 @@ a {
 }
 
 .text-light {
-  color: var(--text-light);
+  color: var(--text-light) !important;
+}
+.text-main {
+  color: var(--text-main) !important;
+}
+.text-link {
+  color: var(--text-link) !important;
+}
+.yellow {
+  color: yellow;
 }
