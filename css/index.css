@@ -124,7 +124,6 @@ p i:hover {
   width: 5rem !important;
   border-radius: 50% !important;
   margin: 0 auto;
-  
 }
 @media screen and (min-width: 48em) {
   .features {
@@ -184,10 +183,16 @@ p i:hover {
   .margin-top-0 {
     margin-top: 0 !important;
   }
-  .landing-first h1 {
+  .landing-first h1,
+  .benefits h2 {
     font-size: 1.5rem;
   }
-  .landing-first p {
+  .landing-first p,
+  .image-round p,
+  .benefits h3 {
     font-size: 1rem;
+  }
+  .benefits {
+    display: flex;
   }
 }
