@@ -98,10 +98,21 @@ p i:hover {
 .benefits h3 {
   text-align: left;
   color: var(--text-link) !important;
+  font-size: 1rem;
 }
 .benefits h2 {
   color: var(--text-main) !important;
+  text-align: left !important;
+  white-space: nowrap;
+  font-size: 1.25rem;
 }
+.benefits h3 i {
+  font-size: 2rem;
+}
+.benefits {
+  padding-left: 1rem !important;
+}
+
 .landing-first p {
   font-size: var(--font-small);
 }
@@ -116,7 +127,7 @@ p i:hover {
   font-size: var(--font-mid);
 }
 .image-round h5 {
-  font-size: 2.2rem;
+  font-size: 1rem;
   color: var(--text-main);
 }
 .image-round img {
@@ -183,8 +194,7 @@ p i:hover {
   .margin-top-0 {
     margin-top: 0 !important;
   }
-  .landing-first h1,
-  .benefits h2 {
+  .landing-first h1 {
     font-size: 1.5rem;
   }
   .landing-first p,
@@ -194,5 +204,12 @@ p i:hover {
   }
   .benefits {
     display: flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+  }
+  .benefits h2 {
+    font-size: 1rem;
   }
 }
