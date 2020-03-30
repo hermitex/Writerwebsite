@@ -105,7 +105,27 @@ p i:hover {
 .landing-first p {
   font-size: var(--font-small);
 }
-
+.image-round {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.image-round p {
+  font-size: var(--font-mid);
+}
+.image-round h5 {
+  font-size: 2.2rem;
+  color: var(--text-main);
+}
+.image-round img {
+  height: 5rem !important;
+  width: 5rem !important;
+  border-radius: 50% !important;
+  margin: 0 auto;
+  
+}
 @media screen and (min-width: 48em) {
   .features {
     columns: 3;
