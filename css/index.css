@@ -187,7 +187,7 @@ p i:hover {
 }
 #countdown div:first-child {
   background: #17a2b8;
-  height: 10rem;
+  height: 5rem;
 }
 
 #offer .row {
@@ -199,6 +199,12 @@ p i:hover {
 .row {
   margin: 0 !important;
   /* display: block; */
+}
+i#options {
+  color: red;
+}
+i#options.green {
+  color: green;
 }
 
 @media screen and (max-width: 650px) {

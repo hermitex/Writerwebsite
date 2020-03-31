@@ -1,5 +1,3 @@
-const offerActive = document.querySelector("#offer .offer-active");
-const offerClosed = document.querySelector("#offer .offer-closed");
 const daysRemaining = document.querySelector("#offer #countdown");
 
 {
@@ -8,8 +6,8 @@ const daysRemaining = document.querySelector("#offer #countdown");
   // const secondsRemaining = document.querySelector("#offer .seconds");
 }
 
-const offer = "$7.5";
-const normal = "$10";
+const offer = "$7.50";
+const normal = "$10.00";
 
 const today = new Date();
 
@@ -31,8 +29,8 @@ const getTime = setInterval(() => {
   daysRemaining.innerHTML = `	
 
   <div class = "row">
-  <button class = "offer-active btn btn-success col" >${offer}</button> 
-  <button class = "offer-active btn btn-danger col">${normal}</button> 
+  <button class = "offer-active btn btn-success col" >${offer} per pager</button> 
+  <button class = "offer-closed btn btn-danger col">${normal} per pager</button> 
   </div>
   <p class="card-text text-light">
   The Offer ends in:
@@ -42,19 +40,21 @@ const getTime = setInterval(() => {
   <div>${addZero(seconds)}<span>Seconds</span></div>
   <div class="row">
   <div class="col">
-    <a  href="contact.html" class="offer-active btn btn-success">Order Now</a>
-    <a href="services.html" class="offer-closed btn btn-danger">See our Services</a>
+    <a  href="contact.html" class=" btn btn-success">Order Now</a>
+    <a href="services.html" class=" btn btn-danger">See our Services</a>
   </div>
 </div>
 
 `;
 
-  if (seconds === 30 && offerActive.classList !== "cross-through") {
-    offerActive.classList.add("cross-through");
-    offerClosed.classList.remove("cross-through");
-  }
-  if (seconds < 30) {
+  const offerActive = document.querySelector("#offer .offer-active");
+  const offerClosed = document.querySelector("#offer .offer-closed");
+
+  if (getTime !== 0) {
     offerClosed.classList.add("cross-through");
-    offerActive.reomove("cross-through");
+    offerActive.classList.remove("cross-through");
+  } else {
+    offerClosed.classList.remove("cross-through");
+    offerActive.add("cross-through");
   }
 }, 1000);

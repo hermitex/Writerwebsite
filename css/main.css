@@ -35,6 +35,7 @@ body {
 /* Lists */
 li {
   list-style: none;
+  color: var(--text-dark);
 }
 
 /* Links */
