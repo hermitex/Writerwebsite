@@ -160,6 +160,60 @@ p i:hover {
   }
 }
 
+.card {
+  border: none;
+  border-radius: 0;
+}
+
+#countdown {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  font-size: 50px;
+  background-color: var(--background-color);
+  width: 100vw !important;
+  height: 100vh;
+}
+#countdown div {
+  padding: 20px 25px;
+
+  margin: 10px;
+  background: rgba(0, 0, 0, 0.5);
+}
+#countdown span {
+  display: block;
+  font-size: 25px;
+}
+#countdown div:first-child {
+  background: #17a2b8;
+  height: 10rem;
+}
+
+#offer .row {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+.row {
+  margin: 0 !important;
+  /* display: block; */
+}
+
+@media screen and (max-width: 650px) {
+  #countdown {
+    font-size: 30px;
+    flex-direction: column;
+  }
+  #countdown div {
+    border: none;
+    background: none;
+    margin: 8px;
+    height: 15vh;
+  }
+}
+
 @media screen and (min-width: 375px) {
   /* .landing-first h1 {
     font-size: var(--font-large);

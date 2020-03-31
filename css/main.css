@@ -55,3 +55,7 @@ a {
 .yellow {
   color: yellow;
 }
+
+.cross-through {
+  text-decoration: line-through;
+}
