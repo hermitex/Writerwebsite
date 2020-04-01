@@ -16,6 +16,8 @@
 }
 
 html {
+  overflow: hidden;
+  overflow-y: scroll;
   scroll-behavior: smooth;
 }
 
@@ -23,13 +25,13 @@ body {
   width: 100vw;
   height: 100vh;
   margin: 0 auto;
-  overflow: hidden;
+
   color: var(--text-light);
   background-color: var(--background-color);
 }
 
 .container-fluid {
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
 }
 
 /* Lists */
