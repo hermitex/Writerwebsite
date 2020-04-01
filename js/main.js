@@ -25,7 +25,7 @@ const getTime = setInterval(() => {
   const hour = 24 - today.getHours();
   const minutes = 60 - today.getMinutes();
   const seconds = 60 - today.getSeconds();
-  console.log(daysRemaining);
+
   daysRemaining.innerHTML = `	
 
   <div class = "row">

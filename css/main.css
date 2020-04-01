@@ -30,10 +30,6 @@ body {
   background-color: var(--background-color);
 }
 
-.container-fluid {
-  /* overflow-y: scroll; */
-}
-
 /* Lists */
 li {
   list-style: none;
